@@ -1,12 +1,12 @@
 const sign = async () => {
-    const username = document.querySelector('#username').value;
-    const email = document.querySelector('#email').value;
-    const password = document.querySelector('#password').value;
+    const username = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
 
     // Kiểm tra email và username trùng lặp
-    const existingUsers = await fetch("http://localhost:3000/user");
+    const existingUsers = await fetch("http://localhost:5000/api/v1/users");
     const existingUserData = await existingUsers.json();
-    const isDuplicate = existingUserData.some(user => user.email === email);
+    const isDuplicate = existingUserData.some(users => users.email === email);
 
     if (isDuplicate) {
         // Hiển thị thông báo cho người dùng rằng email hoặc username đã tồn tại
@@ -20,12 +20,16 @@ const sign = async () => {
             password
         };
 
-        const response = await fetch("http://localhost:3000/user", {
-            method: "POST",
+        const response = await fetch("http://localhost:5000/api/v1/auth/register", {
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify(data),
+            method:'POST',
+          body: JSON.stringify({
+          fullname:username,
+          email:email,
+          password:password,
+      })
         });
         window.location.href = "account-login.html";
         alert("Đăng ký thành công.");
@@ -37,31 +41,31 @@ const sign = async () => {
 
 
 const login = async () => {
-    const email = document.querySelector('#email').value;
-    const password = document.querySelector('#password').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    // console.log(email,password);
+    try {
+      const response = await fetch("http://localhost:5000/api/v1/auth/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          "email": email,
+          "password": password
+        }),
+      });
   
-    // Gửi yêu cầu đăng nhập đến JSON Server
-    const response = await fetch("http://localhost:3000/user", {
-      method: "GET",
-    });
-  
-    if (response) {
-      const userData = await response.json();
-  
-      // Kiểm tra xem thông tin đăng nhập có hợp lệ hay không
-      const user = userData.find((user) => user.email === email && user.password === password);
-  
-      if (user) {
-        // Đăng nhập thành công, chuyển hướng người dùng đến trang chính (ví dụ: "index.html")
+      if (response.ok) {
         window.location.href = "index-two.html";
-        return; // Dừng hàm tại đây
+        alert("Đăng nhập thành công.");
       } else {
-        alert("Sai tên đăng nhập hoặc mật khẩu. Vui lòng thử lại.");
+        alert('Sai email hoặc mật khẩu !');
       }
-    } else {
-      // Xử lý lỗi nếu không thể lấy dữ liệu người dùng từ JSON Server
-      alert("Đã xảy ra lỗi khi đăng nhập. Vui lòng thử lại sau.");
+    } catch (err) {
+      console.error('Đã xảy ra lỗi:', err);
+      alert('Đăng nhập thất bại');
     }
-  };
-  
+};
+
   
