@@ -1,0 +1,298 @@
+{
+  "blog": [
+    {
+      "img": "assets/img/blog/1.webp",
+      "start_day": "20-10-2022",
+      "author": "Elon musk",
+      "title": "Các phối màu giày Air Jordan 3 đẹp được săn đón nhiều",
+      "read": "Xem Ngay"
+    },
+    {
+      "img": "assets/img/blog/2.webp",
+      "start_day": "25-10-2022",
+      "author": "Steve Jobs",
+      "title": "Bí quyết thiết kế trang web đẹp và hiệu quả",
+      "read": "Xem Ngay"
+    },
+    {
+      "img": "assets/img/blog/3.webp",
+      "start_day": "30-10-2022",
+      "author": "Mark Zuckerberg",
+      "title": "Sức mạnh của mạng xã hội trong kinh doanh",
+      "read": "Xem Ngay"
+    },
+    {
+      "img": "assets/img/blog/4.webp",
+      "start_day": "5-11-2022",
+      "author": "Jeff Bezos",
+      "title": "Cách xây dựng doanh nghiệp trực tuyến thành công",
+      "read": "Xem Ngay"
+    },
+    {
+      "img": "assets/img/blog/5.webp",
+      "start_day": "10-11-2022",
+      "author": "Bill Gates",
+      "title": "Làm thế nào để trở thành một lập trình viên giỏi",
+      "read": "Xem Ngay"
+    },
+    {
+      "img": "assets/img/blog/6.webp",
+      "start_day": "15-11-2022",
+      "author": "Warren Buffett",
+      "title": "Bí quyết đầu tư thành công trong thị trường chứng khoán",
+      "read": "Xem Ngay"
+    },
+    {
+      "img": "assets/img/blog/7.webp",
+      "start_day": "20-11-2022",
+      "author": "Richard Branson",
+      "title": "Hành trình sáng tạo và doanh nhân hóa",
+      "read": "Xem Ngay"
+    },
+    {
+      "img": "assets/img/blog/8.webp",
+      "start_day": "25-11-2022",
+      "author": "Oprah Winfrey",
+      "title": "Sức mạnh của truyền thông trong việc thay đổi cuộc sống",
+      "read": "Xem Ngay"
+    }
+  ],
+  "productshop": [
+    {
+      "id": 1,
+      "img": "assets/img/shop/1.webp",
+      "title": "Sản phẩm 1",
+      "quantity": 1,
+      "description": "Ngon bổ rẻ",
+      "price": "200.000"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/shop/2.webp",
+      "title": "Sản phẩm 2",
+      "quantity": 1,
+      "price": "400.000 "
+    },
+    {
+      "id": 3,
+      "img": "assets/img/shop/3.webp",
+      "title": "Sản phẩm 3",
+      "quantity": 1,
+      "price": "350.000 "
+    },
+    {
+      "id": 4,
+      "img": "assets/img/shop/4.webp",
+      "title": "Sản phẩm 4",
+      "quantity": 1,
+      "price": "210.000"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/shop/5.webp",
+      "title": "Sản phẩm 5",
+      "quantity": 1,
+      "price": "420.000 "
+    },
+    {
+      "id": 6,
+      "img": "assets/img/shop/6.webp",
+      "title": "Sản phẩm 6",
+      "quantity": 1,
+      "price": "540.000"
+    },
+    {
+      "id": 7,
+      "img": "assets/img/shop/7.webp",
+      "title": "Sản phẩm 7",
+      "quantity": 1,
+      "price": "260.000"
+    },
+    {
+      "id": 8,
+      "img": "assets/img/shop/8.webp",
+      "title": "Sản phẩm 8",
+      "quantity": 1,
+      "price": "350.000"
+    },
+    {
+      "id": 9,
+      "img": "assets/img/shop/1.webp",
+      "title": "Sản phẩm 9",
+      "quantity": 1,
+      "price": "600.000"
+    },
+    {
+      "id": 10,
+      "img": "assets/img/shop/2.webp",
+      "title": "Sản phẩm 10",
+      "quantity": 1,
+      "price": "320.000"
+    },
+    {
+      "id": 11,
+      "img": "assets/img/shop/3.webp",
+      "title": "Sản phẩm 11",
+      "quantity": 1,
+      "price": "280.000"
+    },
+    {
+      "id": 12,
+      "img": "assets/img/shop/4.webp",
+      "title": "Sản phẩm 12",
+      "quantity": 1,
+      "price": "180.000"
+    },
+    {
+      "id": 13,
+      "img": "assets/img/shop/5.webp",
+      "title": "Sản phẩm 13",
+      "quantity": 1,
+      "price": "450.000"
+    },
+    {
+      "id": 14,
+      "img": "assets/img/shop/6.webp",
+      "title": "Sản phẩm 14",
+      "quantity": 1,
+      "price": "750.000"
+    },
+    {
+      "id": 15,
+      "img": "assets/img/shop/2.webp",
+      "title": "Sản phẩm 15",
+      "quantity": 1,
+      "price": "320.000"
+    },
+    {
+      "id": 16,
+      "img": "assets/img/shop/7.webp",
+      "title": "Sản phẩm 16",
+      "quantity": 1,
+      "price": "210.000"
+    },
+    {
+      "id": 17,
+      "img": "assets/img/shop/4.webp",
+      "title": "Sản phẩm 17",
+      "quantity": 1,
+      "price": "900.000"
+    },
+    {
+      "id": 18,
+      "img": "assets/img/shop/1.webp",
+      "title": "Sản phẩm 18",
+      "quantity": 1,
+      "price": "360.000"
+    }
+  ],
+  "productindex": [
+    {
+      "id": 1,
+      "img": "assets/img/shop/1.webp",
+      "title": "Sản phẩm 1",
+      "price": "200.000"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/shop/2.webp",
+      "title": "Sản phẩm 2",
+      "price": "400.000"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/shop/3.webp",
+      "title": "Sản phẩm 3",
+      "price": "350.000"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/shop/4.webp",
+      "title": "Sản phẩm 4",
+      "price": "210.000"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/shop/5.webp",
+      "title": "Sản phẩm 5",
+      "price": "420.000"
+    },
+    {
+      "id": 6,
+      "img": "assets/img/shop/6.webp",
+      "title": "Sản phẩm 6",
+      "price": "540.000"
+    },
+    {
+      "id": 7,
+      "img": "assets/img/shop/7.webp",
+      "title": "Sản phẩm 7",
+      "price": "260.000"
+    },
+    {
+      "id": 8,
+      "img": "assets/img/shop/8.webp",
+      "title": "Sản phẩm 8",
+      "price": "350.000"
+    }
+  ],
+  "producthot": [
+    {
+      "id": 1,
+      "img": "assets/img/shop/1.webp",
+      "discount": "50%",
+      "title": "Sản phẩm 1",
+      "price": "200.000"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/shop/2.webp",
+      "discount": "50%",
+      "title": "Sản phẩm 2",
+      "price": "400.000"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/shop/3.webp",
+      "discount": "50%",
+      "title": "Sản phẩm 3",
+      "price": "350.000"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/shop/4.webp",
+      "discount": "50%",
+      "title": "Sản phẩm 4",
+      "price": "210.000"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/shop/5.webp",
+      "discount": "50%",
+      "title": "Sản phẩm 5",
+      "price": "420.000"
+    },
+    {
+      "id": 6,
+      "img": "assets/img/shop/6.webp",
+      "discount": "50%",
+      "title": "Sản phẩm 6",
+      "price": "540.000"
+    },
+    {
+      "id": 7,
+      "img": "assets/img/shop/7.webp",
+      "discount": "50%",
+      "title": "Sản phẩm 7",
+      "price": "260.000"
+    }
+  ],
+  "user": [
+    {
+      "username": "admin",
+      "email": "kiethtps26728@fpt.edu.vn",
+      "password": "123",
+      "id": 1
+    }
+  ]
+}
